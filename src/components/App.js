@@ -7,7 +7,14 @@ const App = () => {
   }
   return (
     <div id="main">
-      <button id="dblclick-btn">Double click me</button>
+     <button id="dblclick-btn">Double click me</button>
+    
+    if(dblclick-btn){
+    console.log("I was double clicked")
+}
+else{
+  console.log("I was not double clicked");
+}
     </div>
   )
 }
