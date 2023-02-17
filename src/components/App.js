@@ -4,7 +4,7 @@ const App = () => {
 
   const handleDoubleClick = (event) =>{
     
-    if(handleDoubleClick === 2){
+    if(event.click===2){
     console.log("I was double clicked")
 }
 else{
